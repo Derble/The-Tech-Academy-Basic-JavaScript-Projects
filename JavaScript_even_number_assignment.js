@@ -1,8 +1,8 @@
 //print all even numbers from 0 to 10000
 
 for (let i = 0; i <= 10000; i++) {
-	x = i % 2
-	if (x == 0){
+	//x = i % 2
+	if (i % 2 == 0){
 	console.log(i);
 	}
 }
